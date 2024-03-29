@@ -1,55 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "BridgeTestBlockIsPlacedBy",
-      "type": "procedure",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bridge_test_block_is_placed_by",
-      "metadata": {
-        "files": [
-          "src/main/java/net/icefighter/shortsmod/procedures/BridgeTestBlockIsPlacedByProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/chasm crossing/bridge"
-    },
-    {
-      "name": "BridgeTest",
-      "type": "block",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bridge_test",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/shorts_mod/blockstates/bridge_test.json",
-          "src/main/resources/assets/shorts_mod/models/block/bridge_test.json",
-          "src/main/java/net/icefighter/shortsmod/block/BridgeTestBlock.java",
-          "src/main/resources/assets/shorts_mod/models/item/bridge_test.json"
-        ]
-      },
-      "path": "~/chasm crossing/bridge"
-    },
-    {
       "name": "Bridge",
       "type": "block",
       "sortid": 1,
@@ -111,7 +62,6 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.shorts_mod.bridge_test": "Bridge Test",
       "block.shorts_mod.bridge": "Bridge"
     }
   },

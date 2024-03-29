@@ -2,7 +2,7 @@
   "parent": "shorts_mod:custom/bridge_model",
   "textures": {
     "all": "shorts_mod:block/warning_block",
-    "particle": "shorts_mod:block/warning_block",
+    "particle": "shorts_mod:block/bridge",
     "0": "shorts_mod:block/bridge"
   },
   "render_type": "solid"

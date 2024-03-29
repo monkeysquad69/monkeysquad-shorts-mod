@@ -17,7 +17,6 @@ import net.icefighter.shortsmod.ShortsModMod;
 public class ShortsModModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, ShortsModMod.MODID);
 	public static final RegistryObject<Item> BRIDGE = block(ShortsModModBlocks.BRIDGE);
-	public static final RegistryObject<Item> BRIDGE_TEST = block(ShortsModModBlocks.BRIDGE_TEST);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
