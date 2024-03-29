@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "shorts_mod:block/warning_block",
+    "up": "shorts_mod:block/warning_block",
+    "north": "shorts_mod:block/warning_block",
+    "east": "shorts_mod:block/warning_block",
+    "south": "shorts_mod:block/warning_block",
+    "west": "shorts_mod:block/warning_block",
+    "particle": "shorts_mod:block/warning_block"
+  },
+  "render_type": "solid"
+}

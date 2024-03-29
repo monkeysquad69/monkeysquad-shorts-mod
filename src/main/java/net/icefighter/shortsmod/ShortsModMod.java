@@ -29,6 +29,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.icefighter.shortsmod.init.ShortsModModTabs;
+import net.icefighter.shortsmod.init.ShortsModModItems;
+import net.icefighter.shortsmod.init.ShortsModModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +50,12 @@ public class ShortsModMod {
 	public ShortsModMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		ShortsModModBlocks.REGISTRY.register(bus);
+
+		ShortsModModItems.REGISTRY.register(bus);
+
+		ShortsModModTabs.REGISTRY.register(bus);
 
 	}
 

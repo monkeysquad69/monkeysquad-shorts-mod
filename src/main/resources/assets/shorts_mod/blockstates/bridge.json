@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "shorts_mod:block/bridge"
+    },
+    "facing=east": {
+      "model": "shorts_mod:block/bridge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "shorts_mod:block/bridge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "shorts_mod:block/bridge",
+      "y": 270
+    }
+  }
+}
