@@ -10,9 +10,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/shorts_mod/models/item/bridge.json",
+          "src/main/resources/assets/shorts_mod/blockstates/bridge.json",
           "src/main/resources/assets/shorts_mod/models/block/bridge.json",
-          "src/main/java/net/icefighter/shortsmod/block/BridgeBlock.java",
-          "src/main/resources/assets/shorts_mod/blockstates/bridge.json"
+          "src/main/java/net/icefighter/shortsmod/block/BridgeBlock.java"
         ]
       },
       "path": "~/chasm crossing"
@@ -102,10 +102,10 @@
       "registry_name": "jumpad",
       "metadata": {
         "files": [
-          "src/main/resources/assets/shorts_mod/models/block/jumpad.json",
           "src/main/resources/assets/shorts_mod/models/item/jumpad.json",
+          "src/main/resources/assets/shorts_mod/blockstates/jumpad.json",
           "src/main/java/net/icefighter/shortsmod/block/JumpadBlock.java",
-          "src/main/resources/assets/shorts_mod/blockstates/jumpad.json"
+          "src/main/resources/assets/shorts_mod/models/block/jumpad.json"
         ]
       },
       "path": "~/chasm crossing"
@@ -119,9 +119,9 @@
       "registry_name": "extra_jumpad",
       "metadata": {
         "files": [
+          "src/main/resources/assets/shorts_mod/models/item/extra_jumpad.json",
           "src/main/java/net/icefighter/shortsmod/block/ExtraJumpadBlock.java",
           "src/main/resources/assets/shorts_mod/blockstates/extra_jumpad.json",
-          "src/main/resources/assets/shorts_mod/models/item/extra_jumpad.json",
           "src/main/resources/assets/shorts_mod/models/block/extra_jumpad.json"
         ]
       },

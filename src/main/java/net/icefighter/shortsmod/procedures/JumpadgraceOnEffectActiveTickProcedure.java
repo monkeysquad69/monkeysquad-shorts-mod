@@ -1,5 +1,8 @@
 package net.icefighter.shortsmod.procedures;
 
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+
 import net.icefighter.shortsmod.init.ShortsModModMobEffects;
 
 public class JumpadgraceOnEffectActiveTickProcedure {
