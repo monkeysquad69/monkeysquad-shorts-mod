@@ -1,10 +1,6 @@
 
 package net.icefighter.shortsmod.potion;
 
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.effect.MobEffectCategory;
-import net.minecraft.world.effect.MobEffect;
-
 import net.icefighter.shortsmod.procedures.JumpadgraceOnEffectActiveTickProcedure;
 
 public class JumpadgraceMobEffect extends MobEffect {

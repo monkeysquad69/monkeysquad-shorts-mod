@@ -4,12 +4,6 @@
  */
 package net.icefighter.shortsmod.init;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-
-import net.minecraft.world.level.block.Block;
-
 import net.icefighter.shortsmod.block.JumpadBlock;
 import net.icefighter.shortsmod.block.ExtraJumpadBlock;
 import net.icefighter.shortsmod.block.BridgeBlock;

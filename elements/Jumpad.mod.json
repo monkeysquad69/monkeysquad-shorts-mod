@@ -128,7 +128,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onEntityWalksOn": {
+    "onEntityCollides": {
       "name": "JumpadEntityWalksOnTheBlock1"
     },
     "generateFeature": false,
