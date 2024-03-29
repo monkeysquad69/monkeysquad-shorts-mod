@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="shorts_mod"
+version="1.0.0"
+displayName="shorts mod"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="bleuf, MCreator"
+
+[[dependencies.shorts_mod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.shorts_mod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.2.0]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
