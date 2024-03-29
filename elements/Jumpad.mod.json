@@ -9,13 +9,13 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "bridge_model2:default",
-    "rotationMode": 1,
+    "customModelName": "jumpad_model:default",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "bridge",
+    "particleTexture": "jumpad",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -24,133 +24,25 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.5,
-        "my": 0.5,
-        "mz": 13.5,
-        "Mx": 1.5,
-        "My": 15.0,
-        "Mz": 14.5,
-        "subtract": false
-      },
-      {
-        "mx": 0.5,
-        "my": 0.5,
-        "mz": 9.5,
-        "Mx": 1.5,
-        "My": 15.0,
-        "Mz": 10.5,
-        "subtract": false
-      },
-      {
-        "mx": 0.5,
-        "my": 0.5,
-        "mz": 5.5,
-        "Mx": 1.5,
-        "My": 15.0,
-        "Mz": 6.5,
-        "subtract": false
-      },
-      {
-        "mx": 0.5,
-        "my": 0.5,
-        "mz": 1.5,
-        "Mx": 1.5,
-        "My": 15.0,
-        "Mz": 2.5,
-        "subtract": false
-      },
-      {
-        "mx": 13.5,
-        "my": 0.5,
-        "mz": 13.5,
-        "Mx": 14.5,
-        "My": 15.0,
-        "Mz": 14.5,
-        "subtract": false
-      },
-      {
-        "mx": 13.5,
-        "my": 0.5,
-        "mz": 9.5,
-        "Mx": 14.5,
-        "My": 15.0,
-        "Mz": 10.5,
-        "subtract": false
-      },
-      {
-        "mx": 13.5,
-        "my": 0.5,
-        "mz": 5.5,
-        "Mx": 14.5,
-        "My": 15.0,
-        "Mz": 6.5,
-        "subtract": false
-      },
-      {
-        "mx": 13.5,
-        "my": 0.5,
-        "mz": 1.5,
-        "Mx": 14.5,
-        "My": 15.0,
-        "Mz": 2.5,
-        "subtract": false
-      },
-      {
-        "mx": 0.5,
-        "my": 15.0,
-        "mz": -0.5,
-        "Mx": 1.5,
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
         "My": 16.0,
-        "Mz": 15.5,
+        "Mz": 16.0,
         "subtract": false
       },
       {
-        "mx": 13.5,
-        "my": 15.0,
-        "mz": -0.5,
-        "Mx": 14.5,
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
         "My": 16.0,
-        "Mz": 15.5,
-        "subtract": false
-      },
-      {
-        "mx": -0.5,
-        "my": 0.0,
-        "mz": 12.5,
-        "Mx": 15.5,
-        "My": 0.5,
-        "Mz": 15.5,
-        "subtract": false
-      },
-      {
-        "mx": -0.5,
-        "my": 0.0,
-        "mz": 8.5,
-        "Mx": 15.5,
-        "My": 0.5,
-        "Mz": 11.5,
-        "subtract": false
-      },
-      {
-        "mx": -0.5,
-        "my": 0.0,
-        "mz": 4.5,
-        "Mx": 15.5,
-        "My": 0.5,
-        "Mz": 7.5,
-        "subtract": false
-      },
-      {
-        "mx": -0.5,
-        "my": 0.0,
-        "mz": 0.5,
-        "Mx": 15.5,
-        "My": 0.5,
-        "Mz": 3.5,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Instant Bridge",
+    "name": "Jumpad",
     "specialInformation": {
       "fixedValue": []
     },
@@ -173,7 +65,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "WOOD"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -198,7 +90,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "STONE"
     },
     "breakSound": {
       "value": ""
@@ -236,8 +128,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onBlockPlayedBy": {
-      "name": "BridgeBlockIsPlacedBy"
+    "onEntityWalksOn": {
+      "name": "JumpadEntityWalksOnTheBlock1"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

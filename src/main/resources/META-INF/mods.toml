@@ -17,12 +17,6 @@ authors="bleuf, MCreator"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.shorts_mod]]
-    modId="forge"
-    mandatory=true
-    versionRange="[47.2.0]"
-    ordering="NONE"
-    side="BOTH"
 
 
 

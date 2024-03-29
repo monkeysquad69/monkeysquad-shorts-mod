@@ -1,3 +1,6 @@
 {
-  "block.shorts_mod.bridge": "Bridge"
+  "block.shorts_mod.extra_jumpad": "Extra Jumpad",
+  "block.shorts_mod.bridge": "Instant Bridge",
+  "effect.shorts_mod.jumpadgrace": "Jumpad Grace",
+  "block.shorts_mod.jumpad": "Jumpad"
 }

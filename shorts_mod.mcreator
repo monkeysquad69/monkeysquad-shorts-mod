@@ -15,7 +15,7 @@
           "src/main/resources/assets/shorts_mod/blockstates/bridge.json"
         ]
       },
-      "path": "~/chasm crossing/bridge"
+      "path": "~/chasm crossing"
     },
     {
       "name": "BridgeBlockIsPlacedBy",
@@ -55,14 +55,157 @@
           }
         ]
       },
-      "path": "~/chasm crossing/bridge"
+      "path": "~/chasm crossing"
+    },
+    {
+      "name": "JumpadEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpad_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/icefighter/shortsmod/procedures/JumpadEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/chasm crossing"
+    },
+    {
+      "name": "Jumpad",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpad",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/shorts_mod/models/block/jumpad.json",
+          "src/main/resources/assets/shorts_mod/models/item/jumpad.json",
+          "src/main/java/net/icefighter/shortsmod/block/JumpadBlock.java",
+          "src/main/resources/assets/shorts_mod/blockstates/jumpad.json"
+        ]
+      },
+      "path": "~/chasm crossing"
+    },
+    {
+      "name": "ExtraJumpad",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extra_jumpad",
+      "metadata": {
+        "files": [
+          "src/main/java/net/icefighter/shortsmod/block/ExtraJumpadBlock.java",
+          "src/main/resources/assets/shorts_mod/blockstates/extra_jumpad.json",
+          "src/main/resources/assets/shorts_mod/models/item/extra_jumpad.json",
+          "src/main/resources/assets/shorts_mod/models/block/extra_jumpad.json"
+        ]
+      },
+      "path": "~/chasm crossing"
+    },
+    {
+      "name": "JumpadEntityWalksOnTheBlock1",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpad_entity_walks_on_the_block_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/icefighter/shortsmod/procedures/JumpadEntityWalksOnTheBlock1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/chasm crossing"
+    },
+    {
+      "name": "Jumpadgrace",
+      "type": "potioneffect",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpadgrace",
+      "metadata": {
+        "files": [
+          "src/main/java/net/icefighter/shortsmod/potion/JumpadgraceMobEffect.java"
+        ]
+      },
+      "path": "~/chasm crossing"
+    },
+    {
+      "name": "JumpadgraceOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jumpadgrace_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/icefighter/shortsmod/procedures/JumpadgraceOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/chasm crossing"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.shorts_mod.bridge": "Bridge"
+      "block.shorts_mod.extra_jumpad": "Extra Jumpad",
+      "block.shorts_mod.bridge": "Instant Bridge",
+      "effect.shorts_mod.jumpadgrace": "Jumpad Grace",
+      "block.shorts_mod.jumpad": "Jumpad"
     }
   },
   "foldersRoot": {
@@ -70,12 +213,7 @@
     "children": [
       {
         "name": "chasm crossing",
-        "children": [
-          {
-            "name": "bridge",
-            "children": []
-          }
-        ]
+        "children": []
       }
     ]
   },
@@ -86,7 +224,7 @@
     "author": "bleuf, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": false,
+    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
