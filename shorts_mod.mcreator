@@ -196,6 +196,74 @@
         ]
       },
       "path": "~/chasm crossing"
+    },
+    {
+      "name": "GamemodeCreative",
+      "type": "command",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamemode_creative",
+      "metadata": {
+        "files": [
+          "src/main/java/net/icefighter/shortsmod/command/GamemodeCreativeCommand.java"
+        ]
+      },
+      "path": "~/util"
+    },
+    {
+      "name": "GMC",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gmc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/icefighter/shortsmod/procedures/GMCProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/util"
+    },
+    {
+      "name": "GamemodeSurvival",
+      "type": "command",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamemode_survival",
+      "metadata": {
+        "files": [
+          "src/main/java/net/icefighter/shortsmod/command/GamemodeSurvivalCommand.java"
+        ]
+      },
+      "path": "~/util"
+    },
+    {
+      "name": "GMS",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gms",
+      "metadata": {
+        "files": [
+          "src/main/java/net/icefighter/shortsmod/procedures/GMSProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/util"
     }
   ],
   "variable_elements": [],
@@ -213,6 +281,10 @@
     "children": [
       {
         "name": "chasm crossing",
+        "children": []
+      },
+      {
+        "name": "util",
         "children": []
       }
     ]

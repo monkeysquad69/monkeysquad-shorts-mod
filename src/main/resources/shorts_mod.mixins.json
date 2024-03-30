@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.icefighter.shortsmod.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"ShortsModModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

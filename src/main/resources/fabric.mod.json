@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "shorts_mod",
+  "version": "1.0.0",
+  "name": "shorts mod",
+  "authors": [
+    "bleuf, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.icefighter.shortsmod.ShortsModMod"
+    ],
+    "client": [
+      "net.icefighter.shortsmod.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "shorts_mod.mixins.json"
+  ]
+}
